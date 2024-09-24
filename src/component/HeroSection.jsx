@@ -8,6 +8,9 @@ const HeroSection = () => {
         className=" h-full w-full"
         alt=""
       />
+      <p className=" absolute bottom-[30%] left-[20px] font-semibold text-[24px] text-white">
+        Title
+      </p>
     </div>
   );
 };
