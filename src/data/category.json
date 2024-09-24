@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "label": "All",
+      "value": 0
+    },
+    {
+      "label": "Electronics",
+      "value": 1
+    },
+    {
+      "label": "Home Appliances",
+      "value": 2
+    },
+    {
+      "label": "Books",
+      "value": 3
+    }
+  ]
+}

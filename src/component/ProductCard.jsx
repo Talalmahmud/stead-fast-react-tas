@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = () => {
+const ProductCard = ({ itemDetail }) => {
   return (
     <div className=" bg-slate-300 rounded-[8px] p-2 ">
       <img
@@ -8,8 +8,9 @@ const ProductCard = () => {
         className=" h-[150px] w-full"
         alt=""
       />
-      <p className=" text-[20px] font-semibold">Title</p>
-      <p className=" text-[14px]">This is first product</p>
+      <p className=" text-[20px] font-semibold">{itemDetail?.title}</p>
+      <p>{itemDetail?.price}</p>
+      <p className=" text-[14px]">{itemDetail?.description?.slice(0, 40)}...</p>
     </div>
   );
 };
