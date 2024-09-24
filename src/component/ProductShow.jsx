@@ -56,7 +56,7 @@ const ProductShow = () => {
             ))}
           </select>
         </div>
-        <div className=" w-full md;w-[200px] flex flex-col gap-1">
+        <div className=" w-full md:w-[200px] flex flex-col gap-1">
           <p>Price</p>
           <input
             value={price}
