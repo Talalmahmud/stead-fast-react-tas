@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "products": [
+        {
+          "id": 101,
+          "title": "Smartphone",
+          "price": 700,
+          "description": "A high-end smartphone with 128GB storage and 5G connectivity."
+        },
+        {
+          "id": 102,
+          "title": "Laptop",
+          "price": 1200,
+          "description": "A powerful laptop with 16GB RAM and 512GB SSD."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Home Appliances",
+      "products": [
+        {
+          "id": 201,
+          "title": "Air Conditioner",
+          "price": 500,
+          "description": "Energy-efficient air conditioner with remote control."
+        },
+        {
+          "id": 202,
+          "title": "Refrigerator",
+          "price": 900,
+          "description": "Large capacity refrigerator with smart temperature control."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "products": [
+        {
+          "id": 301,
+          "title": "Programming in JavaScript",
+          "price": 100,
+          "description": "An in-depth guide to JavaScript programming."
+        },
+        {
+          "id": 302,
+          "title": "Data Science with Python",
+          "price": 80,
+          "description": "A comprehensive book on data science using Python."
+        }
+      ]
+    }
+  ]
+}
